@@ -1,0 +1,11 @@
+html {
+  --bg: #fff;
+}
+
+html.dark {
+  --bg: #000;
+}
+
+body {
+  background-color: var(--bg);
+}
